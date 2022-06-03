@@ -60,7 +60,7 @@ class HomePage extends StatelessWidget {
                           ),
                         ),
                         Container(
-                          child: Text("Smart Buttom", style: TextStyle(
+                          child: Text("Infus", style: TextStyle(
                               fontSize: 13,
                               color: Color.fromARGB(255, 84, 145, 158)
                           ),
@@ -181,6 +181,110 @@ class HomePage extends StatelessWidget {
                         ),
                       ],
                     )
+                  ],
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Container(
+              child:
+              Align(
+                alignment: Alignment.topLeft,
+                child: Text("Emergency Buttom", style: TextStyle(
+                    fontSize: 30,
+                    color: Color.fromARGB(255, 84, 145, 158)
+                ),
+                ),
+              ),
+            ),
+            Flexible(
+              child: Container(
+                height: 150,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children:[
+                    Column(
+                      children: [
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>notificationPage(
+                            )));
+                          },
+                          child: Container(
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                              ),
+                              margin: EdgeInsets.all(10),
+                              height: 100,
+                              width: 100,
+                              child: FittedBox(
+                                child: Image.asset("images/bloodTranfusion.png"),
+                                fit: BoxFit.fitWidth,
+                              )
+                          ),
+                        ),
+                        Container(
+                          child: Text("Tranfusi Darah", style: TextStyle(
+                              fontSize: 13,
+                              color: Color.fromARGB(255, 84, 145, 158)
+                          ),
+                          ),
+                        ),
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.push(
+                                context, MaterialPageRoute(builder: (context) =>
+                                notificationPage(
+                                )));
+                          },
+                          child: GestureDetector(
+                            onTap: () {
+                              Navigator.push(
+                                  context, MaterialPageRoute(builder: (context) =>
+                                  notificationPage(
+                                  )));
+                            },
+                            child: Column(
+                              children: [
+                                GestureDetector(
+                                  onTap: () {
+                                    Navigator.push(
+                                        context, MaterialPageRoute(builder: (context) =>
+                                        notificationPage(
+                                        )));
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      shape: BoxShape.circle,
+                                    ),
+                                    margin: EdgeInsets.all(10),
+                                    height: 100,
+                                    width: 100,
+                                    child: FittedBox(
+                                      child: Image.asset("images/oxygen.png"),
+                                      fit: BoxFit.fitWidth,
+                                    ),
+                                  ),
+                                ),
+                                Container(
+                                  child: Text("Oxygen", style: TextStyle(
+                                      fontSize: 13,
+                                      color: Color.fromARGB(255, 84, 145, 158)
+                                  ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
                   ],
                 ),
               ),
