@@ -1,4 +1,4 @@
-# smartnurse
+# Smart Nurse
 
 Smart Nurse Application to improve the Nursery Operation by Digitalization
 
@@ -8,7 +8,7 @@ BackEnd is developed by @elistrisnawati
 To access to back-end:
 
 1. User Name: `u01`
-2. Password: `zaq1@WSX`
+2. Password: `***`
 3. Secret: `1fejZk40lkmJYO1DJI9lgBBtx9kfHjdo`
 4. Client: `pie`
 3. URL Business: https://app.n-tco.com
