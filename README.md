@@ -22,7 +22,6 @@ How to run:
 2. Using the generated token get the secret key and session key
 3. Using the secret key & session key to query to the system.
 
-
 ### Secret Key
 
 1. NURSE: `YYEkld6yZToL13ZcYOxUjVO9zsLqFSF1oTjL0jZLzxItBlCfZbibL5zqYawwyVpQykfMl2z6MfRXgbo4z6b5rBcRJbERt3SyWCAk`
@@ -37,7 +36,7 @@ curl 'https://sso.n-tco.com/auth/realms/YSH/protocol/openid-connect/token'
   -H 'Content-Type: application/x-www-form-urlencoded' 
   --data-raw 'client_id=CLIENT&client_secret=SECRET&username=USER&password=PASSWORD&grant_type=password'
 ````
-####To Authenticate
+####To Authenticate & getting the Secret Key and Session Key
 ````
 curl 'https://app.pie.co.id/rest/page/authenticate' 
   -X POST 
