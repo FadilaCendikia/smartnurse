@@ -3,13 +3,14 @@
 Smart Nurse Application to improve the Nursery Operation by Digitalization
 
 UI is developed by @FadilaCendikia 
+
 BackEnd is developed by @elistrisnawati
 
 To access to back-end:
 
 1. User Name: `u01`
 2. Password: `***`
-3. Secret: `1fejZk40lkmJYO1DJI9lgBBtx9kfHjdo`
+3. Secret: `1fejZk40***`
 4. Client: `pie`
 3. URL Business: https://app.n-tco.com
 4. URL Auth: "https://sso.n-tco.com/auth/realms/YSH/protocol/openid-connect/token
@@ -24,7 +25,7 @@ How to run:
 
 ### Secret Key
 
-1. NURSE: `YYEkld6yZToL13ZcYOxUjVO9zsLqFSF1oTjL0jZLzxItBlCfZbibL5zqYawwyVpQykfMl2z6MfRXgbo4z6b5rBcRJbERt3SyWCAk`
+1. NURSE: `YYEkld6y***`
 
 ###Example
 ####To Sign In to OAUTH2
